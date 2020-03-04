@@ -1,6 +1,6 @@
 # MilitaryScheduleManagement
 
-* Team Toy Project *
+* Team Toy Project
 
  Military Schedule Management
 	
