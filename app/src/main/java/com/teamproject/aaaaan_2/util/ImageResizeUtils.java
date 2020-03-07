@@ -13,10 +13,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/**
- * Created by hanman-yong on 2020-01-30.
- */
-
 // 이미지를 정방향으로 돌려주는 클래스
 public class ImageResizeUtils {
 

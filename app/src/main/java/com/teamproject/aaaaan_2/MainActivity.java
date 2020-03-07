@@ -220,9 +220,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             moveTaskToBack(true);
             finish();
             ActivityCompat.finishAffinity(this);
-
-            // 이놈 넣으면 SharedPreference 정보 날아가는듯.. 그래서 이건 안됨.
-            //android.os.Process.killProcess(android.os.Process.myPid());
         }
 
     }
@@ -354,26 +351,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             pop.show();
         }
     }
-//
-//    @Override
-//    public void setRequestedOrientation(int requestedOrientation) {
-//   /*
-//    if (Build.VERSION.SDK_INT == Build.VERSION_CODES.O) {
-//        // no-op
-//    }else{
-//        super.setRequestedOrientation(requestedOrientation);
-//    }
-//    */
-//        try {
-//            //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-//
-//            if (Build.VERSION.SDK_INT != Build.VERSION_CODES.O) {
-//                super.setRequestedOrientation(requestedOrientation);
-//            }
-//        } catch (IllegalStateException ignore) {
-//
-//        }
-//    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -451,7 +428,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 return;
             }
         }
-
     }
 
     // 사진 파일 만들기
@@ -597,7 +573,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         return resizedBitmap;
     }
-
 
     // 퍼미션 물어보기. (카메라, 저장소 접근)
     private void tedPermission() {
