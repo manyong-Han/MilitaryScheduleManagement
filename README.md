@@ -1,8 +1,6 @@
 # MilitaryScheduleManagement
 
-* Team Toy Project
-
- Military Schedule Management
+* Team Toy Project : Military Schedule Management
 	
 ** 출시를 목적으로 한것이 아닌 스터디를 목적으로 팀원들과 같이 진행한 토이 프로젝트 입니다.
 
@@ -20,7 +18,7 @@
  : 제비뽑기(6인 기준) / 숫자야구
  
 -------------------------
-& 프로젝트 참여인원 
+& 프로젝트 참여인원 \n
 @Comprehensible7, @Kishi18, @koreajava
 
 & Photo Copyright manyong-Han
