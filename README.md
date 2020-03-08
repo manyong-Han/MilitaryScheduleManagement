@@ -18,7 +18,7 @@
  : 제비뽑기(6인 기준) / 숫자야구
  
 -------------------------
-& 프로젝트 참여인원 \n
+& 프로젝트 참여인원
 @Comprehensible7, @Kishi18, @koreajava
 
 & Photo Copyright manyong-Han
