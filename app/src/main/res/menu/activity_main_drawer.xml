@@ -6,19 +6,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_schedule"
-            android:icon="@drawable/ic_calendar"
+            android:icon="@drawable/baseline_calendar_today_white_18dp"
             android:title="@string/menu_schedule" />
         <item
             android:id="@+id/nav_d_day"
-            android:icon="@drawable/ic_clock"
+            android:icon="@drawable/baseline_today_white_18dp"
             android:title="@string/menu_d_day" />
         <item
             android:id="@+id/nav_list"
-            android:icon="@drawable/ic_check"
+            android:icon="@drawable/baseline_contact_phone_white_18dp"
             android:title="@string/menu_list" />
         <item
             android:id="@+id/nav_mini_game"
-            android:icon="@drawable/ic_menu_send"
+            android:icon="@drawable/baseline_videogame_asset_white_18dp"
             android:title="@string/menu_mini_game" />
         <item
             android:id="@+id/nav_my_page"
