@@ -19,11 +19,14 @@
    - 제비뽑기(6인 기준) / 숫자야구
 
 #### 4. 개발환경
-##### 4-1) OS - MacOS / Window 10
-##### 4-2) Language - Java
-##### 4-3) DB - SQLite
-##### 4-4) SCM - GitHub
-##### 4-5) Library - GitHub OpenSource Library
+| 구분 | 내용 |
+|:--------:|:--------:|
+| OS | MacOS / Window 10 |
+| IDE | Android Studio |
+| Language | Java |
+| DB | SQLite |
+| SCM | GitHub|
+| Library | GitHub OpenSource Library |
 
 -------------------------
 & 프로젝트 참여인원   
