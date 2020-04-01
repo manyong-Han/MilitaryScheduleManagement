@@ -69,6 +69,7 @@ public class JoinActivity extends AppCompatActivity {
         id_chack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 search(id);
                 count++;
 
@@ -114,12 +115,11 @@ public class JoinActivity extends AppCompatActivity {
     }
 
     public void search(EditText edit_id_check) {
-
         String id_chack = edit_id_check.getText().toString();
         Cursor cursor;
         boolean flag = true;
 
-        cursor = handler.member_select(id_chack);
+        cursor = handler.member_select_join(id_chack);
 
         while(cursor.moveToNext()) {
             if (cursor != null) {

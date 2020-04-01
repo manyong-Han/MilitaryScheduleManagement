@@ -30,10 +30,19 @@ public class dbHandler {
     public Cursor member_select(String login_id) {
         mDB = mHelper.getReadableDatabase();
 
-        String sql_query = "SELECT * FROM member WHERE id ='" + login_id + "'";
+        String sql_query = "SELECT id FROM member WHERE id ='" + login_id + "'";
         Cursor c = mDB.rawQuery(sql_query, null);
 
         c.moveToFirst();
+
+        return c;
+    }
+
+    public Cursor member_select_join(String login_id) {
+        mDB = mHelper.getReadableDatabase();
+
+        String sql_query = "SELECT id FROM member WHERE id ='" + login_id + "'";
+        Cursor c = mDB.rawQuery(sql_query, null);
 
         return c;
     }
