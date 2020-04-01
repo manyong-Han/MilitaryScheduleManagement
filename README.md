@@ -17,7 +17,14 @@
    - 비상연락처(이름/계급/연락처/입대일) 등록 / 수정 / 삭제
 ##### 3-4) 미니게임 서비스
    - 제비뽑기(6인 기준) / 숫자야구
- 
+
+#### 4. 개발환경
+##### 4-1) OS - MacOS / Window 10
+##### 4-2) Language - Java
+##### 4-3) DB - SQLite
+##### 4-4) SCM - GitHub
+##### 4-5) Library - GitHub OpenSource Library
+
 -------------------------
 & 프로젝트 참여인원   
 	@Comprehensible7, @Kishi18, @koreajava
